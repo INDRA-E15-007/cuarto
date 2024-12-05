@@ -1,0 +1,35 @@
+#header{
+	margin: auto;;
+	width: 1225px;
+	font-family: Cooper Black;
+	font-size: 30px;
+}
+
+ul{
+	list-style: none;
+}
+
+.navy li a {
+	background-color:black;
+	color: white;
+	text-decoration: none;
+	padding: 30px;
+	display: block;
+}
+.navy >li{
+	float: left;
+}
+.navy li :hover{
+	background-color:#AE1FF1;
+}
+.navy li ul{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+}
+.navy li:hover > ul{
+	display: block;
+}
+h1{
+	color: white;
+}
